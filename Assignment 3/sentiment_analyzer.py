@@ -36,4 +36,3 @@ def analyze_sentiment_flair(texts):
     # Parse the results and return
     results = [1 if sentence.labels[0].value == 'POSITIVE' else 0 for sentence in sentences]
     return results
-
